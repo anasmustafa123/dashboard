@@ -78,6 +78,19 @@ img.logo{
     gap: 16px;
     align-items: center;
 }
+.search-container > input {
+    border-color: #8eeaff;
+    height: 32px;
+    width: min(500px, 30vw);
+    border-radius: 29px;
+    padding: 9px;
+    box-shadow: 1px 1px 5px 0px #b8eaf5;
+}
+.search-container > input:hover {
+    transform: scale(1.04);
+    background: #b8eaf5;
+}
+
 .page-user-data {
     display: flex;
     gap: 24px;
